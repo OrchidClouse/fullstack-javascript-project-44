@@ -1,0 +1,25 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrchidClouse/hexlet-project.git"
+  },
+  "author": "OrchidClouse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrchidClouse/hexlet-project/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/OrchidClouse/hexlet-project#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
