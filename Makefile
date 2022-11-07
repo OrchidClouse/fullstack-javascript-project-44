@@ -17,4 +17,4 @@ brain-gcd:
 		node bin/brain-gcd.js
 
 lint:
-		npx eslint .
+	npx eslint .

@@ -1,6 +1,6 @@
-import { cons } from "@hexlet/pairs";
+import { cons } from '@hexlet/pairs';
 
-const gcd = function(a, b) {
+function gcd(a, b) {
   if (!b) {
     return a;
   }
@@ -8,9 +8,9 @@ const gcd = function(a, b) {
   return gcd(b, a % b);
 }
 
-export default() =>{
+export default () => {
   const firstNum = Math.round(Math.random() * 100);
   const secondNum = Math.round(Math.random() * 100);
-  const correctAnswer = gcd(firstNum,secondNum)
-  return cons(`${firstNum} ${secondNum}`, correctAnswer.toString())
-}
+  const correctAnswer = gcd(firstNum, secondNum);
+  return cons(`${firstNum} ${secondNum}`, correctAnswer.toString());
+};
