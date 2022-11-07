@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { cons } from '@hexlet/pairs';
 
 function gcd(a, b) {
