@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { car, cdr } from '@hexlet/pairs';
 import readlineSync from 'readline-sync';
 

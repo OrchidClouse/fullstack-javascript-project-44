@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import {cons} from "@hexlet/pairs";
 // import readlineSync from "readline-sync";
 
