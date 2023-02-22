@@ -9,7 +9,7 @@ function gcd(a, b) {
   return gcd(b, a % b);
 }
 
-export default () => {
+export default function gcdGame() {
   const firstNum = Math.round(Math.random() * 100);
   const secondNum = Math.round(Math.random() * 100);
   const correctAnswer = gcd(firstNum, secondNum);

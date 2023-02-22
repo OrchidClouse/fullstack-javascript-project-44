@@ -20,7 +20,7 @@ function prime(n) {
   return true;
 }
 
-export default () => {
+export default function primeGame() {
   const number = Math.round(Math.random() * 100);
   let correctAns = '';
   if (prime(number)) {

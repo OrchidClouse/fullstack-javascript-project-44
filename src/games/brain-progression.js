@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cons } from '@hexlet/pairs';
 
-export default () => {
+export default function progressionGame() {
   const firstNum = Math.round(Math.random() * 10);
   const add = Math.round(Math.random() * 10);
   const arr = [];

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { cons } from '@hexlet/pairs';
 
-export default () => {
+export default function calc(){
   let correctAnswer = 0;
   const signs = ['+', '-', '*'];
   const firstNum = Math.round(Math.random() * 10);

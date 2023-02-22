@@ -3,7 +3,7 @@
 import { car, cdr } from '@hexlet/pairs';
 import readlineSync from 'readline-sync';
 
-export default (textQuestion, getQuestion) => {
+export default function checker(textQuestion, getQuestion){
   console.log('Welcome to the Brain Games!');
   const username = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${username}!`);

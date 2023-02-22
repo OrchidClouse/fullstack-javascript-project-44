@@ -6,7 +6,7 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
 
-export default () => {
+export default function even() {
   const number = getRandomInt(1, 50);
   let correctAns = '';
   if (number % 2 === 0) {
