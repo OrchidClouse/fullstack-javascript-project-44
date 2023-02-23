@@ -11,7 +11,7 @@
   },
   "description": "Basic games like calculator, parity, etc.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -25,8 +25,8 @@
   "type": "module",
   "homepage": "https://github.com/OrchidClouse/hexlet-project#readme",
   "devDependencies": {
-    "eslint": "^8.26.0",
     "@hexlet/pairs": "^1.1.1",
+    "eslint": "^8.26.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-jest": "^27.1.3",
